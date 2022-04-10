@@ -1,0 +1,18 @@
+#include <iostream>
+#include <array>
+using namespace std;
+
+int main(){
+    int arr[6];
+
+    for(int i=0; i<6;i++){
+        cin >> arr[i];
+    }
+
+    for(int i=1;i<6;i++){
+        arr[i] = arr[i-1] + arr[i];
+    }
+    for(int i=0;i<6;i++){
+        cout << arr[i] << " ";
+    }
+}
