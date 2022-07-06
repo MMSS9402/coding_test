@@ -31,10 +31,10 @@ int main(){
         }
     }
 
-    if(f == 0) cout << 5;
-    if(f == 1) cout << 4;
-    if(f == 2) cout << 3;
-    if(f == 3) cout << 2;
-    if(f == 4) cout << 1;
+    if(f == 0) cout << 5 << "층";
+    if(f == 1) cout << 4<< "층";
+    if(f == 2) cout << 3<< "층";
+    if(f == 3) cout << 2<< "층";
+    if(f == 4) cout << 1<< "층";
 
 }
