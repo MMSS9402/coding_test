@@ -13,11 +13,11 @@ int main()
         int ascii = c + i;
         if (ascii > 90)
         {
-            ascii = ascii - 25;
+            ascii = ascii - 26;
         }
         if (ascii < 65)
         {
-            ascii = ascii + 25;
+            ascii = ascii + 26;
         }
         cout << char(ascii);
     }
